@@ -1,6 +1,14 @@
 ﻿@model Moov2.Orchard.Hero.Models.HeroPart
 
-<h2>Hero</h2>
+@{
+    Script.Require("HeroJs");
+
+    Style.Require("jQueryColorBox");
+}
+
+<h2>@T("Hero")</h2>
+
+<p><a href="#" class="js-open-media-library">@T("Create from Media")</a></p>
 
 <fieldset>
     <label>@T("Html")</label>

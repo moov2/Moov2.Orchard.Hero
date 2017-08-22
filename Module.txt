@@ -9,3 +9,4 @@ Category: Content
 Features:
     Moov2.Orchard.Hero:
         Description: Configure hero section for content item.
+		Dependencies: Orchard.MediaLibrary
