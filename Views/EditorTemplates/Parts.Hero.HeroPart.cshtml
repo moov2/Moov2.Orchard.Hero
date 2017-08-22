@@ -1,0 +1,9 @@
+﻿@model Moov2.Orchard.Hero.Models.HeroPart
+
+<h2>Hero</h2>
+
+<fieldset>
+    <label>@T("Html")</label>
+    @Display.Body_Editor(Text: Model.Html, EditorFlavor: "Html", Required: false, AutoFocus: false, ContentItem: Model.ContentItem)
+    @Html.ValidationMessageFor(m => m.Html)
+</fieldset>

@@ -1,0 +1,7 @@
+﻿<Placement>
+  <Place Parts_Hero_Edit="Content:2"/>
+
+  <Match DisplayType="Detail">
+    <Place Parts_Hero="Header:3"/>
+  </Match>
+</Placement>
