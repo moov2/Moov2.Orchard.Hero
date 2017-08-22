@@ -1,0 +1,10 @@
+﻿Name: Moov2.Orchard.Hero
+AntiForgery: enabled
+Author: Moov2
+Website: https://moov2.com
+Version: 0.1
+OrchardVersion: 1.10.2
+Description: Configure hero section for content item.
+Features:
+    Moov2.Orchard.Hero:
+        Description: Configure hero section for content item.
