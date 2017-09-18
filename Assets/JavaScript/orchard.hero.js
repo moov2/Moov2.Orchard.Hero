@@ -46,7 +46,7 @@
      * Returns HTML for a single image.
      */
     var renderSingleImage = function (image) {
-        return '<div class="hero">\n\t<div class="hero__content">\n\t\t<img src="' + image.resource + '" alt="' + image.alternateText + '" />\n\t</div>\n</div>';
+        return '<section class="hero">\n\t<picture>\n\t\t<img src="' + image.resource + '" class="display--block" alt="' + image.alternateText + '" />\n\t</picture>\n</section>';
     };
 
     /**
