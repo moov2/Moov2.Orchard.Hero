@@ -2,7 +2,7 @@
     var CONTENT_TYPE_IMAGE = 'Image';
 
     var $openMediaBtn = $('.js-open-media-library'),
-        $textArea = $('#Hero_Text');
+        $input = $('#Hero_Text');
 
     var addListeners = function () {
         $openMediaBtn.on('click', openMediaPicker);
@@ -63,7 +63,9 @@
             html = renderSingleImage(media[0]);
         }
 
-        $textArea.val(html).trigger('change');
+        $input.val(html);
+        $input[0].dispatchEvent(new Event('change'));
+
     };
 
     addListeners();
