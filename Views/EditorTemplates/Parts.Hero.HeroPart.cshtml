@@ -6,12 +6,17 @@
     Style.Require("jQueryColorBox");
 }
 
+<hr />
+
 <h2>@T("Hero")</h2>
 
-<p><a href="#" class="js-open-media-library">@T("Create from Media")</a></p>
+<p class="hint">@T("The hero section is a full-width media item displayed before the page content.")</p>
+<p class="hint">@T("Use the shortcut below to quickly generate HTML for the hero section by picking a media item from the media library.")</p>
+<p class="hint" style="margin-bottom: 1em;">@T("Alternatively, you can customise the display of a hero section by constructing custom HTML using the editor.")</p>
+
+<p><a href="#" class="js-open-media-library">@T("Generate HTML from Media")</a></p>
 
 <fieldset>
-    <label>@T("Html")</label>
     @Display.Body_Editor(Text: Model.Html, EditorFlavor: "Html", Required: false, AutoFocus: false, ContentItem: Model.ContentItem)
     @Html.ValidationMessageFor(m => m.Html)
 </fieldset>
