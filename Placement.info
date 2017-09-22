@@ -1,5 +1,5 @@
 ﻿<Placement>
-  <Place Parts_Hero_Edit="Content:2"/>
+  <Place Parts_Hero_Edit="Content:1.5"/>
 
   <Match DisplayType="Detail">
     <Place Parts_Hero="Header:3"/>
