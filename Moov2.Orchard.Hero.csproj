@@ -96,6 +96,7 @@
     <Compile Include="Models\HeroPartRecord.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResourceManifest.cs" />
+    <Compile Include="Settings\HeroSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets.json" />
@@ -123,6 +124,7 @@
     <Content Include="Placement.info" />
     <Content Include="Views\Parts.Hero.cshtml" />
     <Content Include="Scripts\Web.config" />
+    <Content Include="Views\DefinitionTemplates\HeroTypePartSettings.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

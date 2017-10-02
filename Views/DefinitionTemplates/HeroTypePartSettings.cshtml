@@ -1,0 +1,15 @@
+﻿@model Moov2.Orchard.Hero.Settings.HeroTypePartSettings
+
+<fieldset>
+    <label for="@Html.FieldIdFor(m => m.Hint)">@T("Hint")</label>
+    @Html.TextAreaFor(m => m.Hint)
+    <span class="hint">@T("Help text shown to user when editing a hero.")</span>
+    @Html.ValidationMessageFor(m => m.Hint)
+</fieldset>
+
+<fieldset>
+    <label for="@Html.FieldIdFor(m => m.Breakpoints)">@T("Image Breakpoints")</label>
+    @Html.TextBoxFor(m => m.Breakpoints, new { @class = "text medium" })
+    <span class="hint">@T("Comma-separated list of the different breakpoints (in pixels) to use when generating HTML for hero section.")</span>
+    @Html.ValidationMessageFor(m => m.Breakpoints)
+</fieldset>
