@@ -36,7 +36,6 @@
             onClosed: function () {
                 $('html, body').css('overflow', '');
                 $('html').scrollTop(cachedScrollPosition);
-                console.log(cachedScrollPosition);
                 setHtml($.colorbox.selectedData);
             }
         });
